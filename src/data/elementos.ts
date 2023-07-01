@@ -103,10 +103,33 @@ const elementos = [
     [
         {numAtomico: 55, simbQuimico: 'Cs', nome: "Césio", pesoAtomico: '132.91', cor:'bg-amber-500', imagem:'src/assets/gold-not-background-.png'},
         {numAtomico: 56, simbQuimico: 'Ba', nome: "Bário", pesoAtomico: '137.33', cor:'bg-yellow-400', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 0, simbQuimico: 'aaza', nome: " ", pesoAtomico: ' ', cor: '', imagem: ''}, 
+        {numAtomico: 72, simbQuimico: 'Hf', nome: "Háfnio", pesoAtomico: '178.49(2)', cor:'bg-rose-400', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 73, simbQuimico: 'Ta', nome: "Tântalo", pesoAtomico: '180.95', cor:'bg-rose-400', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 74, simbQuimico: 'W', nome: "Tungstênio", pesoAtomico: '183.84', cor:'bg-rose-400', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 75, simbQuimico: 'Re', nome: "Rênio", pesoAtomico: '186.21', cor:'bg-rose-400', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 76, simbQuimico: 'Os', nome: "Ósmio", pesoAtomico: '190.23(3)', cor:'bg-rose-400', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 77, simbQuimico: 'Ir', nome: "Irídio", pesoAtomico: '192.22', cor:'bg-rose-400', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 78, simbQuimico: 'Pt', nome: "Platina", pesoAtomico: '195.08', cor:'bg-rose-400', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 79, simbQuimico: 'Au', nome: "Ouro", pesoAtomico: '196.97', cor:'bg-rose-400', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 80, simbQuimico: 'Hg', nome: "Mercúrio", pesoAtomico: '200.59', cor:'bg-rose-400', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 81, simbQuimico: 'Tl', nome: "Tálio", pesoAtomico: '204.38', cor:'bg-sky-500', imagem:'src/assets/gold-not-background-.png'},    
+        {numAtomico: 82, simbQuimico: 'Pb', nome: "Chumbo", pesoAtomico: '207.2', cor:'bg-sky-500', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 83, simbQuimico: 'Bi', nome: "Bismuto", pesoAtomico: '208.98', cor:'bg-sky-500', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 84, simbQuimico: 'Po', nome: "Polônio", pesoAtomico: '[209]', cor:'bg-teal-600', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 85, simbQuimico: 'At', nome: "Astato", pesoAtomico: '[210]', cor:'bg-cyan-500', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 86, simbQuimico: 'Rn', nome: "Radônio", pesoAtomico: '[222]', cor:'bg-blue-500', imagem:'src/assets/gold-not-background-.png'},
     ],
     [
         {numAtomico: 87, simbQuimico: 'Fr', nome: "Frâncio", pesoAtomico: '[223]', cor:'bg-amber-500', imagem:'src/assets/gold-not-background-.png'},
         {numAtomico: 88, simbQuimico: 'Ra', nome: "Rádio", pesoAtomico: '[226]', cor:'bg-yellow-400', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 0, simbQuimico: 'aaza', nome: " ", pesoAtomico: ' ', cor: '', imagem: ''}, 
+        {numAtomico: 104, simbQuimico: 'Rf', nome: "Rutherfórdio", pesoAtomico: '[267]', cor:'bg-rose-400', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 105, simbQuimico: 'Db', nome: "Dúbnio", pesoAtomico: '[268]', cor:'bg-rose-400', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 106, simbQuimico: 'Sg', nome: "Seabórgio", pesoAtomico: '[269]', cor:'bg-rose-400', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 107, simbQuimico: 'Bh', nome: "Bóhrio", pesoAtomico: '[270]', cor:'bg-rose-400', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 108, simbQuimico: 'Hs', nome: "Hássio", pesoAtomico: '[269]', cor:'bg-rose-400', imagem:'src/assets/gold-not-background-.png'},
+        {numAtomico: 109, simbQuimico: 'Mt', nome: "Meitnério", pesoAtomico: '[278]', cor:'bg-rose-400', imagem:'src/assets/gold-not-background-.png'},
     ]
 ] 
 

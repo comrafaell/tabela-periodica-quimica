@@ -8,15 +8,15 @@ export function Tabela() {
 
     return (
         
-        <div className="bg-gray-500 flex justify-center items-center flex-col h-full">
+        <div className="bg-gray-500 flex justify-center items-center flex-col h-full overflow-hidden">
 
-            <header className="bg-orange-400 w-full h-10 p-10 flex justify-center items-center">
+            <header className="bg-orange-400 w-full h-14 flex justify-center items-center">
                 <h1 className="font-bold text-white">Tabela Periódica</h1>
             </header>
 
-            <div className="p-10">
+            <div>
 
-                <main className="bg-slate-300 grid grid-rows-7 grid-cols-18">
+                <main className="bg-slate-300 m-6">
                 
                     {
                         elementos.map(linhas => (

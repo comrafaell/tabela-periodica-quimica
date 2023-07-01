@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {},
     fontSize: {
-      'peq': '0.5rem',
+      'peq': '0.6rem',
+      'med': '0.75rem',
     }
   },
   plugins: [],

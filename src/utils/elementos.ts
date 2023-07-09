@@ -18,7 +18,6 @@ const elementos01 = [
         {numAtomico: 0, simbQuimico: 'pp16', nome: " ", pesoAtomico: ' ', cor: '', imagem: ''}, 
         {numAtomico: 2, simbQuimico: 'He', nome: "Hélio", pesoAtomico: '4.0026', cor: 'bg-blue-500', imagem: 'src/assets/gold-not-background-.png'},
     
-    
         {numAtomico: 3, simbQuimico: 'Li', nome: "Lítio", pesoAtomico: '6.94', cor: 'bg-amber-500', imagem: 'src/assets/gold-not-background-.png'},
         {numAtomico: 4, simbQuimico: 'Be', nome: "Berílio", pesoAtomico: '9.0122', cor: 'bg-yellow-400', imagem: 'src/assets/gold-not-background-.png'},
         {numAtomico: 0, simbQuimico: 'aaa', nome: " ", pesoAtomico: ' ', cor: '', imagem: ''}, 
@@ -37,7 +36,6 @@ const elementos01 = [
         {numAtomico: 8, simbQuimico: 'O', nome: "Oxigênio", pesoAtomico: '15.999', cor: 'bg-lime-500', imagem: 'src/assets/gold-not-background-.png'},    
         {numAtomico: 9, simbQuimico: 'F', nome: "Flúor", pesoAtomico: '18.998', cor: 'bg-cyan-500', imagem: 'src/assets/gold-not-background-.png'},    
         {numAtomico: 10, simbQuimico: 'Ne', nome: "Neônio", pesoAtomico: '20.180', cor: 'bg-blue-500', imagem: 'src/assets/gold-not-background-.png'},    
-
     
         {numAtomico: 11, simbQuimico: 'Na', nome: "Sódio", pesoAtomico: '22.990', cor:'bg-amber-500', imagem:'src/assets/gold-not-background-.png'},
         {numAtomico: 12, simbQuimico: 'Mg', nome: "Magnésio", pesoAtomico: '24.305', cor:'bg-yellow-400', imagem:'https://s3.static.brasilescola.uol.com.br/be/2022/03/magnesita.jpg'},

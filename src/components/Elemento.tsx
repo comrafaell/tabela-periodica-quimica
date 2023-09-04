@@ -13,24 +13,33 @@ interface propsElemento {
 export function Elemento(props: propsElemento) {
     if(props.numAtomico == 222) {
         return (
-            <div className={props.cor + ' border border-solid border-transparent flex justify-center flex-col cursor-pointer w-12 h-12 p-2 box-content'}>
+            <div className={props.cor + ' border border-solid border-transparent flex justify-center flex-col cursor-pointer w-7 h-7 p-2 box-content'}>
                 <p className="text-peq flex justify-start">57 - 71</p>
             </div>
         )
     } else if(props.numAtomico == 333) {
         return (
-            <div className={props.cor + ' border border-solid border-transparent flex justify-center flex-col cursor-pointer w-12 h-12 p-2 box-content'}>
+            <div className={props.cor + ' border border-solid border-transparent flex justify-center flex-col cursor-pointer w-7 h-7 p-2 box-content'}>
                 <p className="text-peq flex justify-start">89 - 103</p>
             </div>
         )
-    } else if(props.numAtomico !== 0) {
+    } else if(props.numAtomico == 789) {
+        return (
+            <div className={props.cor + ' border border-solid border-transparent flex justify-center flex-col cursor-pointer w-7 h-7 p-2 box-content'}>
+                <h1 className="text-med font-bold flex justify-center items-center">{props.simbQuimico}</h1>
+            </div>
+    )} else if(props.numAtomico !== 0) {
         return (
             <Dialog.Root>
-                <Dialog.Trigger type='button' className={props.cor + ' border border-solid border-black flex justify-center flex-col cursor-pointer w-12 h-12 p-2 box-content hover:bg-slate-600 hover:text-white'}>
-                    <p className="text-nan flex justify-start">{props.numAtomico}</p>
-                    <h1 className="text-med font-bold flex justify-center items-center">{props.simbQuimico}</h1>
-                    <p className="text-peq flex justify-center items-center">{props.nome}</p>
-                    <p className="text-peq flex justify-center items-center ">{props.pesoAtomico}</p>
+                <Dialog.Trigger type='button' className={props.cor + ' border border-solid border-black flex-col flex justify-center items-center cursor-pointer w-7 h-7 p-2 box-content hover:bg-slate-600 hover:text-white'}>
+                   <div className="flex-col flex justify-start w-full">
+                        <p className="text-nan flex justify-start">{props.numAtomico}</p>
+                   </div>
+                    <div className="flex-col flex justify-center items-center">
+                        <h1 className="text-med font-bold flex justify-center items-center">{props.simbQuimico}</h1>
+                        <p className="text-peq flex justify-center items-center">{props.nome}</p>
+                        <p className="text-peq flex justify-center items-center ">{props.pesoAtomico}</p>
+                    </div>
                 </Dialog.Trigger>
 
                 <Dialog.Portal>
@@ -55,11 +64,11 @@ export function Elemento(props: propsElemento) {
 
 
             
-        )
-    } 
+        )}
+    
 
     return (
-        <div className={`border border-solid border-transparent flex-col w-12 h-12 p-2 box-content`}>
+        <div className={`border border-solid border-transparent flex-col w-7 h-7 p-2 box-content`}>
         
         </div>
     )

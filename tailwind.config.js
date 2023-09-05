@@ -14,9 +14,9 @@ export default {
       }
     },
     fontSize: {
-      'nan': '0.5rem',
-      'peq': '0.6rem',
-      'med': '0.75rem',
+      'nan': '0.4rem',
+      'peq': '0.5rem',
+      'med': '0.65rem',
     }
   },
   plugins: [],

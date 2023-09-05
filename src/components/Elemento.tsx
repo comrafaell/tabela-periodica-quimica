@@ -13,24 +13,38 @@ interface propsElemento {
 export function Elemento(props: propsElemento) {
     if(props.numAtomico == 222) {
         return (
-            <div className={props.cor + ' border border-solid border-transparent flex justify-center flex-col cursor-pointer w-12 h-12 p-2 box-content'}>
+            <div className={props.cor + ' border border-solid border-transparent flex justify-center flex-col cursor-pointer w-8 h-8 p-2 box-content'}>
                 <p className="text-peq flex justify-start">57 - 71</p>
             </div>
         )
+
     } else if(props.numAtomico == 333) {
         return (
-            <div className={props.cor + ' border border-solid border-transparent flex justify-center flex-col cursor-pointer w-12 h-12 p-2 box-content'}>
+            <div className={props.cor + ' border border-solid border-transparent flex justify-center flex-col cursor-pointer w-8 h-8 p-2 box-content'}>
                 <p className="text-peq flex justify-start">89 - 103</p>
             </div>
         )
+        
     } else if(props.numAtomico !== 0) {
         return (
             <Dialog.Root>
-                <Dialog.Trigger type='button' className={props.cor + ' border border-solid border-black flex justify-center flex-col cursor-pointer w-12 h-12 p-2 box-content hover:bg-slate-600 hover:text-white'}>
-                    <p className="text-nan flex justify-start">{props.numAtomico}</p>
-                    <h1 className="text-med font-bold flex justify-center items-center">{props.simbQuimico}</h1>
-                    <p className="text-peq flex justify-center items-center">{props.nome}</p>
-                    <p className="text-peq flex justify-center items-center ">{props.pesoAtomico}</p>
+                <Dialog.Trigger type='button' className={props.cor + ' border border-solid border-black flex-col flex justify-center items-center cursor-pointer w-8 h-8 p-2 box-content hover:bg-slate-600 hover:text-white'}>
+                   
+                    <div className="flex-col flex w-full">
+
+                        <div>
+                            <div className="flex justify-start relative top-1">
+                                <span className="text-nan">{props.numAtomico}</span>
+                            </div>
+                            <div className="flex justify-center">
+                                <span className="text-med font-bold flex justify-center items-center">{props.simbQuimico}</span>
+                            </div>
+                            <span className="text-peq flex justify-center items-center">{props.nome}</span>
+                            <span className="text-peq flex justify-center items-center">{props.pesoAtomico}</span>
+                        </div>
+
+                    </div>
+
                 </Dialog.Trigger>
 
                 <Dialog.Portal>
@@ -55,11 +69,11 @@ export function Elemento(props: propsElemento) {
 
 
             
-        )
-    } 
+        )}
+    
 
     return (
-        <div className={`border border-solid border-transparent flex-col w-12 h-12 p-2 box-content`}>
+        <div className={`border border-solid border-transparent flex-col w-8 h-8 p-2 box-content`}>
         
         </div>
     )

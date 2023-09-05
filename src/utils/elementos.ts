@@ -1,5 +1,4 @@
 const elementos01 = [
-        /* {numAtomico: 789, simbQuimico: '1', nome: " ", pesoAtomico: ' ', cor: '', imagem: ''},  */
         {numAtomico: 1, simbQuimico: 'H', nome: "Hidrogênio", pesoAtomico: '1.008', cor: 'bg-lime-500', imagem: 'src/assets/gold-not-background-.png'},
         {numAtomico: 3, simbQuimico: 'Li', nome: "Lítio", pesoAtomico: '6.94', cor: 'bg-amber-500', imagem: 'src/assets/gold-not-background-.png'},
         {numAtomico: 11, simbQuimico: 'Na', nome: "Sódio", pesoAtomico: '22.990', cor:'bg-amber-500', imagem:'src/assets/gold-not-background-.png'},

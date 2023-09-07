@@ -39,7 +39,7 @@ export function Tabela() {
                 </div>               
             </div>
 
-            <div className="w-full flex ">
+            <div className="w-full flex justify-center">
 
                 <div className="w-7">
                     <div className="h-7 w-7" />

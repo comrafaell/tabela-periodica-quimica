@@ -14,14 +14,14 @@ export function Elemento(props: propsElemento) {
     if(props.numAtomico == 222) {
         return (
             <div className={props.cor + ' border border-solid border-transparent flex justify-center flex-col cursor-pointer w-8 h-8 p-2 box-content'}>
-                <p className="text-peq flex justify-start">57 - 71</p>
+                <p className="text-peq font-bold flex justify-start">57 - 71</p>
             </div>
         )
 
     } else if(props.numAtomico == 333) {
         return (
             <div className={props.cor + ' border border-solid border-transparent flex justify-center flex-col cursor-pointer w-8 h-8 p-2 box-content'}>
-                <p className="text-peq flex justify-start">89 - 103</p>
+                <p className="text-peq font-bold flex justify-start">89 - 103</p>
             </div>
         )
         

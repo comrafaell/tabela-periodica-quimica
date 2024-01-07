@@ -1,4 +1,4 @@
-const elementos01 = [
+const elements01 = [
         {numAtomico: 1, simbQuimico: 'H', nome: "Hidrogênio", pesoAtomico: '1.008', cor: 'bg-lime-500', imagem: 'src/assets/gold-not-background-.png'},
         {numAtomico: 3, simbQuimico: 'Li', nome: "Lítio", pesoAtomico: '6.94', cor: 'bg-amber-500', imagem: 'src/assets/gold-not-background-.png'},
         {numAtomico: 11, simbQuimico: 'Na', nome: "Sódio", pesoAtomico: '22.990', cor:'bg-amber-500', imagem:'src/assets/gold-not-background-.png'},
@@ -161,7 +161,7 @@ const elementos01 = [
         {numAtomico: 118, simbQuimico: 'Og', nome: "Organessônio", pesoAtomico: '[294]', cor:'bg-blue-500', imagem:'src/assets/gold-not-background-.png'},
 ] 
 
-const elementos02 = [
+const elements02 = [
 
         {numAtomico: 0, simbQuimico: 'aaza', nome: " ", pesoAtomico: ' ', cor: '', imagem: ''}, 
         {numAtomico: 0, simbQuimico: 'aaza', nome: " ", pesoAtomico: ' ', cor: '', imagem: ''},
@@ -224,5 +224,5 @@ const elementos02 = [
 
 
 
-export const getElementos1 = () => elementos01.map((elemento1) => elemento1)
-export const getElementos2 = () => elementos02.map((elemento2) => elemento2)
+export const getElements1 = () => elements01.map((element1) => element1)
+export const getElements2 = () => elements02.map((element2) => element2)

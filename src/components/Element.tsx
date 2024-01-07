@@ -1,7 +1,7 @@
 import * as Dialog from '@radix-ui/react-dialog';
 import { X } from 'phosphor-react';
 
-interface propsElemento {
+interface propsElement {
     numAtomico: number,
     simbQuimico: string,
     nome: string,
@@ -10,17 +10,17 @@ interface propsElemento {
     imagem: string,
 }
 
-export function Elemento(props: propsElemento) {
+export function Element(props: propsElement) {
     if(props.numAtomico == 222) {
         return (
-            <div className={props.cor + ' border border-solid border-transparent flex justify-center flex-col cursor-pointer w-8 h-8 p-2 box-content'}>
+            <div className={props.cor + ' border border-solid border-transparent flex justify-center flex-col cursor-pointer w-10 h-10 p-2 box-content'}>
                 <p className="text-peq font-bold flex justify-start">57 - 71</p>
             </div>
         )
 
     } else if(props.numAtomico == 333) {
         return (
-            <div className={props.cor + ' border border-solid border-transparent flex justify-center flex-col cursor-pointer w-8 h-8 p-2 box-content'}>
+            <div className={props.cor + ' border border-solid border-transparent flex justify-center flex-col cursor-pointer w-10 h-10 p-2 box-content'}>
                 <p className="text-peq font-bold flex justify-start">89 - 103</p>
             </div>
         )
@@ -28,7 +28,7 @@ export function Elemento(props: propsElemento) {
     } else if(props.numAtomico !== 0) {
         return (
             <Dialog.Root>
-                <Dialog.Trigger type='button' className={props.cor + ' border border-solid border-black flex-col flex justify-center items-center cursor-pointer w-8 h-8 p-2 box-content hover:bg-slate-600 hover:text-white'}>
+                <Dialog.Trigger type='button' className={props.cor + ' border border-solid border-black flex-col flex justify-center items-center cursor-pointer w-10 h-10 p-2 box-content hover:bg-slate-600 hover:text-white'}>
                    
                     <div className="flex-col flex w-full">
 
@@ -73,7 +73,7 @@ export function Elemento(props: propsElemento) {
     
 
     return (
-        <div className={`border border-solid border-transparent flex-col w-8 h-8 p-2 box-content`}>
+        <div className={`border border-solid border-transparent flex-col w-10 h-10 p-2 box-content`}>
         
         </div>
     )

@@ -1,9 +1,9 @@
-import { Elemento } from "./Elemento";
+import { Element } from "./Element";
 
-import { getElementos1, getElementos2 } from '../utils/elementos';
+import { getElements1, getElements2 } from '../utils/elements';
 
-const elementos = getElementos1()
-const elementos2 = getElementos2()
+const elements = getElements1()
+const elements2 = getElements2()
 
 
 const periodos = ['1', '2', '3', '4', '5', '6', '7']
@@ -59,15 +59,15 @@ export function Tabela() {
 
                 <div className='grid grid-rows-7 grid-flow-col gap-1'>
                     {
-                        elementos.map(elemento => {
-                            return <Elemento
-                                key={`${elemento.numAtomico}-${elemento.simbQuimico}`}
-                                numAtomico={elemento.numAtomico}
-                                simbQuimico={elemento.simbQuimico}
-                                nome={elemento.nome}
-                                pesoAtomico={elemento.pesoAtomico}
-                                cor={elemento.cor}
-                                imagem={elemento.imagem} 
+                        elements.map(element => {
+                            return <Element
+                                key={`${element.numAtomico}-${element.simbQuimico}`}
+                                numAtomico={element.numAtomico}
+                                simbQuimico={element.simbQuimico}
+                                nome={element.nome}
+                                pesoAtomico={element.pesoAtomico}
+                                cor={element.cor}
+                                imagem={element.imagem} 
                             />
                         })
                     }
@@ -83,20 +83,22 @@ export function Tabela() {
 
                 <div className='grid grid-rows-2 grid-flow-col gap-1'>
                     {
-                        elementos2.map(elemento => {
-                            return <Elemento
-                                key={`${elemento.numAtomico}-${elemento.simbQuimico}`}
-                                numAtomico={elemento.numAtomico}
-                                simbQuimico={elemento.simbQuimico}
-                                nome={elemento.nome}
-                                pesoAtomico={elemento.pesoAtomico}
-                                cor={elemento.cor}
-                                imagem={elemento.imagem} 
+                        elements2.map(element => {
+                            return <Element
+                                key={`${element.numAtomico}-${element.simbQuimico}`}
+                                numAtomico={element.numAtomico}
+                                simbQuimico={element.simbQuimico}
+                                nome={element.nome}
+                                pesoAtomico={element.pesoAtomico}
+                                cor={element.cor}
+                                imagem={element.imagem} 
                             />
                         })
                     }
                 </div>
             </div>
+
+           
 
         </main>
     )
